@@ -4,7 +4,9 @@
   "description": "smalldata webapp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . && jscs *.js bin/ lib/ test/",
+    "pretest": "npm run lint",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,8 @@
     "smalldata",
     "weed"
   ],
-  "author": "Iskander Ignatev",
+  "author": "Gennady Lebedev",
+  "contributors": "Iskander Ignatev <iskander.ignatev@gmail.com> (http://github.com/ignatev)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gennady-lebedev/small.A/issues"
