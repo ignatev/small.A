@@ -1,0 +1,26 @@
+{
+  "name": "smalla",
+  "version": "0.0.1",
+  "description": "smalldata webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gennady-lebedev/small.A.git"
+  },
+  "keywords": [
+    "smalldata",
+    "weed"
+  ],
+  "author": "Iskander Ignatev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gennady-lebedev/small.A/issues"
+  },
+  "homepage": "https://github.com/gennady-lebedev/small.A#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
